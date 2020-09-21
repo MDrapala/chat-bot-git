@@ -97,3 +97,73 @@ aside {
   padding: 6px;
   border-radius: 16px;
 }
+
+/* ====================================
+=============== SECTION ===============
+======================================= */
+
+section {
+  background-color: #263238;
+  width: 100%;
+  position: relative;
+}
+
+/* ==================================
+=============== TCHAT ===============
+===================================== */
+
+.tchat {
+  display: flex;
+  flex-direction: column-reverse;
+  height: calc(100% - 48px);
+  overflow: scroll;
+  padding-bottom: 48px;
+}
+
+.tchat__received {
+  padding: 8px;
+  max-width: 50%;
+  align-self: flex-start;
+}
+
+.tchat__received__top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tchat__received__picture {
+  background-color: #ECEFF1;
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  margin-right: 8px;
+}
+
+.tchat__received__name {
+  margin-right: 8px;
+}
+
+.tchat__received__date {
+  opacity: .5;
+}
+
+.tchat__received__message {
+  background-color: #37474F;
+  margin-left: 40px;
+  padding: 12px;
+  border-radius: 4px 16px 16px 16px;
+}
+
+.tchat__send {
+  padding: 8px;
+  padding-right: 16px;
+  max-width: 50%;
+  align-self: flex-end;
+}
+
+.tchat__send__message {
+  background-color: #2196F3;
+  padding: 12px;
+  border-radius: 16px 4px 16px 16px;
+}
