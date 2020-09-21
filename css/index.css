@@ -140,6 +140,12 @@ section {
   margin-right: 8px;
 }
 
+.tchat__received__picture img{
+  width: 100%;
+  height: 100%;
+  border-radius: 32px;
+}
+
 .tchat__received__name {
   margin-right: 8px;
 }
