@@ -52,3 +52,48 @@ aside {
 .profile__name {
   margin-top: 8px;
 }
+
+/* ====================================
+=============== CONTACT ===============
+======================================= */
+.contact {
+  overflow: scroll;
+}
+
+.contact__profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  min-width: 256px;
+  cursor: pointer;
+}
+
+.contact__profile--active {
+  background-color: #2196F3;
+}
+
+.contact__picture {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  margin-right: 8px;
+  background-color: #ECEFF1;
+  overflow: hidden;
+}
+
+.contact__picture__img {
+  width: 100%;
+  height: 100%;
+}
+
+.contact__name {
+  flex-grow: 1;
+}
+
+.contact__counter {
+  background-color: rgba(255, 255, 255, .2);
+  font-size: .8rem;
+  padding: 6px;
+  border-radius: 16px;
+}
