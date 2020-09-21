@@ -39,7 +39,7 @@
     </div>
   </aside>
   <section>
-    <div class="tchat">
+    <div class="tchat" id="tchat">
       <div class="tchat__received">
         <div class="tchat__received__top">
           <div class="tchat__received__picture"></div>
@@ -90,10 +90,11 @@
         <p class="tchat__received__message">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius sint, officiis autem commodi rerum voluptatibus.</p>
       </div>
     </div>
-    <form action="">
+    <form action="" id="form">
       <input type="text" name="message" id="message" placeholder="Écrivez un message..." class="form__input">
-      <input type="submit" value="Envoyer" class="form__send">
+      <input type="submit" value="Envoyer" class="form__send" onclick="sendMessage();">
     </form>
   </section>
+  <script src="js/index.js"></script>
 </body>
 </html>
